@@ -62,7 +62,11 @@ iftop -i ens2f1np1
 
 Note: This scenario is tailored to our server configuration. You might need to modify the files and commands to align with your specific setup.
 
+Sometimes ipertf may stop working, or refuses to exit, feel free to kill all processes by running:
 
+```bash
+sh killiperf.sh
+```
 
 
 
