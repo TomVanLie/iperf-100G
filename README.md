@@ -68,7 +68,13 @@ Sometimes ipertf may stop working, or refuses to exit, feel free to kill all pro
 sh killiperf.sh
 ```
 
+## Interface Disconnection/Reconnection
 
+If the interface goes down and is subsequently brought back up, it is essential to run the reload script. This script refreshes ARP and iptables rules:
+
+```bash
+sh reload.sh
+```
 
 ## Appendix
 
