@@ -26,6 +26,13 @@ To install this project, use git to clone the repository and navigate to the pro
     
 ## Deployment
 
+This scenario assumes that the interface IP address has already been configured. If not, you can configure the interfaces by executing the following command:
+
+```bash
+ifconfig ens2f0np0 10.50.0.1/24
+ifconfig ens2f1np1 10.50.1.1/24
+```
+
 To configure NAT rules and enable the multicore operation of Iperf, you must run the setup script. This can be done by executing the following command:
 ```bash
 sh setup.sh
